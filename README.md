@@ -1,8 +1,6 @@
 LUKS-OPs
 ========
 
-[![Join the chat at https://gitter.im/JohnTroony/LUKS-OPs](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/JohnTroony/LUKS-OPs?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
-
 ### What is Luks-Ops? 
 A bash script to automate the most basic usage of LUKS and Cryptsetup in Linux.
 
@@ -65,11 +63,18 @@ Other options include:
 * man cryptsetup (or cryptsetup --help)
 * man dmsetup
 
+## Create an encrypted file volume
+
+Works similar to TrueCrypt. 
+Creates a file which can be opened with a key. 
+[Source](https://null-byte.wonderhowto.com/how-to/hide-sensitive-files-encrypted-containers-your-linux-system-0186691/)
+Open close function is yet to be added.
+
 #### TODO
 1. Support for multiple user keys 
 2. Remote unlocking LUKS encrypted LVM 
 3. ZSH completion 
-4. [ Include other user requests here ]
+4. Add open close functions to luks container script
 
 ### Read..
 
